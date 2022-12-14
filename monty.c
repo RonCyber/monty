@@ -15,6 +15,7 @@ int main(int argc, char **argv)
 	stack_t *top = NULL;
 	instruction_t *instruction = NULL;
 	size_t glsize = 0;
+int getline();
 
 	/* check for proper number of arguments */
 	if (argc != 2)
