@@ -9,7 +9,6 @@
  */
 void push(stack_t **stack, unsigned int line_number)
 {
-int SQ = 1;
 	stack_t *new, *tmp;
 	char *push_arg = strtok(NULL, "\n \t");
 	int pVal;
