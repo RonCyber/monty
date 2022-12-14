@@ -1,5 +1,5 @@
 #include "monty.h"
-
+extern int SQ;
 /**
  * push - pushes an element to the stack.
  * @stack: the stack
