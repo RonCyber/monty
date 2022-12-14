@@ -9,7 +9,7 @@
  */
 void push(stack_t **stack, unsigned int line_number)
 {
-int SQ;
+int SQ = 1;
 	stack_t *new, *tmp;
 	char *push_arg = strtok(NULL, "\n \t");
 	int pVal;
@@ -34,7 +34,7 @@ int SQ;
 	/** checks if stack is empty **/
 	if ((*stack) == NULL)
 		*stack = new;
-	else if (SQ == 1)
+	else if (SQ)
 	{
 		/** puts new node on top if not empty **/
 		(*stack)->prev = new;
