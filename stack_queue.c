@@ -4,6 +4,7 @@
  * @stack: monty stack
  * @line_number: line number of file
  */
+int SQ;
 void stack(stack_t **stack, unsigned int line_number)
 {
 	UNUSED(stack);
