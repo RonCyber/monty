@@ -1,5 +1,5 @@
 #include "monty.h"
-extern int SQ;
+
 /**
  * push - pushes an element to the stack.
  * @stack: the stack
@@ -9,6 +9,7 @@ extern int SQ;
  */
 void push(stack_t **stack, unsigned int line_number)
 {
+int SQ;
 	stack_t *new, *tmp;
 	char *push_arg = strtok(NULL, "\n \t");
 	int pVal;
