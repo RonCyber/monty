@@ -34,7 +34,7 @@ int SQ;
 	/** checks if stack is empty **/
 	if ((*stack) == NULL)
 		*stack = new;
-	else if (SQ)
+	else if (SQ = 1)
 	{
 		/** puts new node on top if not empty **/
 		(*stack)->prev = new;
